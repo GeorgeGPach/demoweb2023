@@ -14,16 +14,21 @@
 
         /* 1.) Utilice una variable y el método prompt para que  */
         /* el USUARIO ingrese su Nombre  */
-        let nomUsuario = prompt("Escribe tu Nombre");
+        let edad = prompt("Escribe tu Edad");
 
 
         /* 2.) Mostrar un mensaje personalizado con el texto  */
         /* "Bienvenido " + Nombre de Usuario */
-        if(nomUsuario == ''){
-            alert('Por favor ingrese su nombre');
-        }else{
-            alert("Bienvenido a la Clase de DEW, " + nomUsuario);
-        }       
+        if (edad < 12) {
+        alert("Todavía eres muy pequeño");
+        } else if(edad < 19) {
+        alert("Eres un adolescente");
+        } else if(edad < 35) {
+        alert("Eres un joven");
+        } else {
+        alert("Eres un adulto");
+        }
+
     </script>
 </body>
 
