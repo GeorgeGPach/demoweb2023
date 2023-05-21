@@ -19,7 +19,11 @@
 
         /* 2.) Mostrar un mensaje personalizado con el texto  */
         /* "Bienvenido " + Nombre de Usuario */
-        alert("Bienvenido a la Clase de DEW, " + nomUsuario);
+        if(nomUsuario == ''){
+            alert('Por favor ingrese su nombre');
+        }else{
+            alert("Bienvenido a la Clase de DEW, " + nomUsuario);
+        }       
     </script>
 </body>
 
