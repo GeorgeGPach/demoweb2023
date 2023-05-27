@@ -8,4 +8,4 @@ let appellidoPaterno = prompt("Por favor ingrese su apellido paterno: ");
 let appellidoMaterno = prompt("Por favor ingrese su apellido materno: ");
 
 //Mostrar en cuadro emergente los datos ingresados
-alert("Hola" + nombrePersona + appellidoPaterno + appellidoMaterno);
+alert("Hola" + nombrePersona + " " + appellidoPaterno + " "+ appellidoMaterno);
