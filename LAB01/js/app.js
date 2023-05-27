@@ -1,0 +1,1 @@
+let nombrePersona = prompt("Por favor ingrese su nombre: ");
